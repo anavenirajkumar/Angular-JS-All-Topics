@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1561263994207" clover="3.2.0">
+  <project timestamp="1561263994207" name="All files">
+    <metrics statements="26" coveredstatements="14" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="2" elements="39" coveredelements="16" complexity="0" loc="26" ncloc="26" packages="1" files="2" classes="2"/>
+    <file name="app.js" path="D:\Workspace\UI_Developement\Offline_Classes\4PM_BATCH\NODE_JS\Node_JS_Complete_Files\20_JEST_Framework\app.js">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="utility.js" path="D:\Workspace\UI_Developement\Offline_Classes\4PM_BATCH\NODE_JS\Node_JS_Complete_Files\20_JEST_Framework\utility.js">
+      <metrics statements="18" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="0" type="stmt"/>
+      <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
