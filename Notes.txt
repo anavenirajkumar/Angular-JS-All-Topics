@@ -1,0 +1,37 @@
+
+CREATE DATABASE EmpDB
+
+CREATE TABLE dbo.Department( DepartmentId int identity(1,1),DepartmentName varchar(500))
+SELECT * FROM dbo.Department
+INSERT INTO dbo.Department VALUES('IT')
+INSERT INTO dbo.Department VALUES('Support')
+
+CREATE TABLE dbo.Employee(
+EmployeeId int identity(1,1),
+EmployeeName varchar(500),
+Department varchar(500),
+DateOfJoining date,
+PhotoFileName varchar(500)
+)
+
+INSERT INTO dbo.Employee VALUES('Rajkumar','Software','01-12-2021','anonymous.png')
+
+Install-Package Microsoft.AspNet.WebApi.Cors
+Install-Package System.Data.SqlClient
+
+Create Controller -> WebApi -> EmptyController
+
+
+WebApiConfig
+------------
+     using System.Net.Http.Headers; ////
+     using System.Web.Http.Cors; // for Cors
+     config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html")); //Convert XML Data to JSON Data
+     config.EnableCors( new EnableCorsAttribute("*","*","*")); // Enable for Cors
+
+
+Web.config
+-----------
+	<connectionStrings>
+		<add name="EmployeeAppDB" connectionString="Server=SBSLPT-34;Initial Catalog=EmpDB;Integrated Security=true; User Id=sa; Password=sql@123; Trusted_Connection=False; MultipleActiveResultSets=true" />
+	</connectionStrings>
